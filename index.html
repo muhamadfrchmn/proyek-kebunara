@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kebunara - Spesialis Mawar Pilihan dengan perawatan terbaik, siap mempercantik kebun Anda.">
+  <title>Kebunara - Spesialis Mawar Pilihan</title>
+
+  <!-- Google Fonts: Cormorant Garamond (Serif) & Plus Jakarta Sans (Sans-serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet (CSS murni) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGASI ==================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#beranda" class="brand-logo" aria-label="Kebunara Home">
+        <div class="logo-icon-wrapper">
+          <img src="assets/img/logo-kebunara.png" alt="logo kebunara">
+        </div>
+      
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-navigation" id="main-navigation" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li class="nav-item"><a href="#koleksi" class="nav-link nav-link--active">Mawar</a></li>
+          <li class="nav-item"><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li class="nav-item"><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li class="nav-item"><a href="#perawatan" class="nav-link">Perawatan Mawar</a></li>
+          <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <!-- Instagram Link -->
+        <a href="https://instagram.com/kebunara" target="_blank" rel="noopener noreferrer" class="action-icon-btn" aria-label="Instagram Kebunara">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+
+        <!-- Shopping Cart / Bag -->
+        <button type="button" class="action-icon-btn cart-trigger-btn" id="cart-trigger-btn" aria-label="Keranjang Belanja">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-badge" id="cart-badge-count">0</span>
+        </button>
+
+        <!-- WhatsApp CTA Button -->
+        <a href="https://api.whatsapp.com/send?phone=6289533834052&text=Halo%20Kebunara,%20saya%20tertarik%20dengan%20koleksi%20mawar%20pilihan%20Anda." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp-header">
+          <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          <span>Chat WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="beranda">
+    <!-- Full-bleed Hero Background Image & Gradient Overlay -->
+    <div class="hero-bg-backdrop" aria-hidden="true">
+      <img 
+        src="assets/img/hero-banner.png" 
+        alt="Hamparan Mawar Segar Kebunara" 
+        class="hero-bg-img"
+        loading="eager"
+      >
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <!-- Botanical Decorative Watermark SVG (Left Background) -->
+
+    <div class="container hero-container">
+      <!-- Content Column -->
+      <div class="hero-content">
+        <span class="eyebrow-badge">SPESIALIS MAWAR PILIHAN</span>
+        
+        <h1 class="hero-headline">
+          Mawar Pilihan<br>Untuk Kebun Anda
+        </h1>
+
+        <p class="hero-description">
+          Kebunara menyediakan berbagai jenis mawar berkualitas dengan perawatan terbaik, siap mempercantik setiap sudut kebun Anda.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group">
+          <a href="#koleksi" class="btn btn--primary">
+            <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M10 3C8 3 6 5 6 7C6 10 10 14 10 14C10 14 14 10 14 7C14 5 12 3 10 3Z"/>
+              <path d="M10 14V18"/>
+              <path d="M10 16C7 16 5 14 4 12"/>
+            </svg>
+            <span>Lihat Koleksi Mawar</span>
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=6289533834052&text=Halo%20Kebunara,%20saya%20ingin%20konsultasi%20pemilihan%20mawar." target="_blank" rel="noopener noreferrer" class="btn btn--secondary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+            <span>Chat Kebunara</span>
+          </a>
+        </div>
+
+        <!-- 3 Feature Highlights Under CTA -->
+        <div class="hero-features-row">
+          <div class="hero-feature-item">
+            <div class="feature-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M12 2C8 6 4 10 4 14a8 8 0 0 0 16 0c0-4-4-8-8-12z"></path>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <span class="feature-title">Mawar Sehat</span>
+              <span class="feature-subtitle">Terawat dengan baik</span>
+            </div>
+          </div>
+
+          <div class="hero-feature-item">
+            <div class="feature-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 20h10"></path>
+                <path d="M12 20v-8"></path>
+                <path d="M12 12a5 5 0 0 1 5-5c0 4-2 6-5 6z"></path>
+                <path d="M12 12a5 5 0 0 0-5-5c0 4 2 6 5 6z"></path>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <span class="feature-title">Akar Kuat</span>
+              <span class="feature-subtitle">Siap tumbuh optimal</span>
+            </div>
+          </div>
+
+          <div class="hero-feature-item">
+            <div class="feature-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <span class="feature-title">Packing Aman</span>
+              <span class="feature-subtitle">Pengiriman terjaga</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== KOLEKSI PRODUK MAWAR ==================== -->
+  <section class="products-section" id="koleksi">
+    <div class="container">
+      
+      <!-- Section Header -->
+      <div class="section-header">
+        <div class="section-title-group">
+          <span class="section-subtitle">KOLEKSI MAWAR KEBUNARA</span>
+          <h2 class="section-title">Pilihan Mawar Terbaik</h2>
+        </div>
+        <a href="#koleksi" class="link-view-all" id="view-all-link">
+          <span>Lihat Semua Mawar</span>
+          <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- 5 Product Cards Grid -->
+      <div class="products-grid" id="products-container">
+        
+        <!-- Card 1: Mawar David Austin -->
+        <article class="product-card" data-product-id="david-austin">
+          <div class="product-card__thumb-wrap">
+            <span class="product-card__badge product-card__badge--available">
+              <span class="badge-dot">●</span> Tersedia
+            </span>
+            <img 
+              src="https://images.unsplash.com/photo-1559563458-527698bf5295?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar David Austin" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar David Austin</h3>
+            <p class="product-card__price">Rp 65.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="david-austin">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="david-austin" aria-label="Chat WhatsApp untuk Mawar David Austin">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Mawar Red Eden -->
+        <article class="product-card" data-product-id="red-eden">
+          <div class="product-card__thumb-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Red Eden" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Red Eden</h3>
+            <p class="product-card__price">Rp 55.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="red-eden">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="red-eden" aria-label="Chat WhatsApp untuk Mawar Red Eden">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Mawar Juliet -->
+        <article class="product-card" data-product-id="juliet">
+          <div class="product-card__thumb-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Juliet" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Juliet</h3>
+            <p class="product-card__price">Rp 65.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="juliet">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="juliet" aria-label="Chat WhatsApp untuk Mawar Juliet">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4: Mawar White O'Hara -->
+        <article class="product-card" data-product-id="white-ohara">
+          <div class="product-card__thumb-wrap">
+            <span class="product-card__badge product-card__badge--available">
+              <span class="badge-dot">●</span> Tersedia
+            </span>
+            <img 
+              src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar White O'Hara" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar White O'Hara</h3>
+            <p class="product-card__price">Rp 60.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="white-ohara">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="white-ohara" aria-label="Chat WhatsApp untuk Mawar White O'Hara">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5: Mawar Pink Eden -->
+        <article class="product-card" data-product-id="pink-eden">
+          <div class="product-card__thumb-wrap">
+            <span class="product-card__badge product-card__badge--available">
+              <span class="badge-dot">●</span> Tersedia
+            </span>
+            <img 
+              src="https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Pink Eden" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Pink Eden</h3>
+            <p class="product-card__price">Rp 55.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="pink-eden">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="pink-eden" aria-label="Chat WhatsApp untuk Mawar Pink Eden">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Extended Card 6: Mawar Abraham Darby -->
+        <article class="product-card product-card--extended is-hidden" data-product-id="abraham-darby">
+          <div class="product-card__thumb-wrap">
+            <span class="product-card__badge product-card__badge--available">
+              <span class="badge-dot">●</span> Tersedia
+            </span>
+            <img 
+              src="https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Abraham Darby" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Abraham Darby</h3>
+            <p class="product-card__price">Rp 65.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="abraham-darby">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="abraham-darby" aria-label="Chat WhatsApp untuk Mawar Abraham Darby">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Extended Card 7: Mawar Black Baccara -->
+        <article class="product-card product-card--extended is-hidden" data-product-id="black-baccara">
+          <div class="product-card__thumb-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Black Baccara" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Black Baccara</h3>
+            <p class="product-card__price">Rp 70.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="black-baccara">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="black-baccara" aria-label="Chat WhatsApp untuk Mawar Black Baccara">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Extended Card 8: Mawar Graham Thomas -->
+        <article class="product-card product-card--extended is-hidden" data-product-id="graham-thomas">
+          <div class="product-card__thumb-wrap">
+            <span class="product-card__badge product-card__badge--available">
+              <span class="badge-dot">●</span> Tersedia
+            </span>
+            <img 
+              src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Graham Thomas" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Graham Thomas</h3>
+            <p class="product-card__price">Rp 65.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="graham-thomas">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="graham-thomas" aria-label="Chat WhatsApp untuk Mawar Graham Thomas">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Extended Card 9: Mawar Leonardo da Vinci -->
+        <article class="product-card product-card--extended is-hidden" data-product-id="leonardo-da-vinci">
+          <div class="product-card__thumb-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Leonardo da Vinci" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Leonardo da Vinci</h3>
+            <p class="product-card__price">Rp 60.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="leonardo-da-vinci">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="leonardo-da-vinci" aria-label="Chat WhatsApp untuk Mawar Leonardo da Vinci">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Extended Card 10: Mawar Blue for You -->
+        <article class="product-card product-card--extended is-hidden" data-product-id="blue-for-you">
+          <div class="product-card__thumb-wrap">
+            <span class="product-card__badge product-card__badge--available">
+              <span class="badge-dot">●</span> Tersedia
+            </span>
+            <img 
+              src="https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&w=600&q=80" 
+              alt="Mawar Blue for You" 
+              class="product-card__image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Mawar Blue for You</h3>
+            <p class="product-card__price">Rp 70.000</p>
+            <div class="product-card__actions">
+              <button type="button" class="btn-card-detail" data-id="blue-for-you">Lihat Detail</button>
+              <button type="button" class="btn-card-wa" data-id="blue-for-you" aria-label="Chat WhatsApp untuk Mawar Blue for You">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== NILAI LAYANAN / BENEFIT BAR ==================== -->
+  <section class="benefits-section" id="keunggulan">
+    <div class="container">
+      <div class="benefits-card-container">
+        
+        <!-- Feature 1 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 9C17 9 14 11 14 15C14 20 20 25 20 25C20 25 26 20 26 15C26 11 23 9 20 9Z"/>
+              <path d="M20 25V32"/>
+              <path d="M20 28C17 28 15 26 14 24"/>
+              <path d="M20 30C23 30 25 28 26 26"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4 class="benefit-title">Mawar Pilihan</h4>
+            <p class="benefit-desc">Kami memilih mawar terbaik dengan kualitas unggul.</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 32H28"/>
+              <path d="M20 32V20"/>
+              <path d="M20 20C20 14 27 12 28 12C28 19 22 20 20 20Z"/>
+              <path d="M20 20C20 14 13 12 12 12C12 19 18 20 20 20Z"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4 class="benefit-title">Perawatan Terbaik</h4>
+            <p class="benefit-desc">Dirawat dengan penuh perhatian sejak dari bibit.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M31 24V14L20 8L9 14V24L20 30L31 24Z"/>
+              <path d="M9.5 14.5L20 20.2L30.5 14.5"/>
+              <path d="M20 30V20.2"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4 class="benefit-title">Pengiriman Aman</h4>
+            <p class="benefit-desc">Packing rapi dan aman sampai ke tangan Anda.</p>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="benefit-item">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M30 19C30 24 25.5 28 20 28C18.2 28 16.5 27.5 15 26.6L10 28L11.5 23.5C10.5 22.2 10 20.6 10 19C10 14 14.5 10 20 10C25.5 10 30 14 30 19Z"/>
+              <circle cx="16" cy="19" r="1" fill="currentColor"/>
+              <circle cx="20" cy="19" r="1" fill="currentColor"/>
+              <circle cx="24" cy="19" r="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h4 class="benefit-title">Konsultasi Gratis</h4>
+            <p class="benefit-desc">Kami siap membantu Anda seputar perawatan mawar.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TENTANG KAMI SECTION ==================== -->
+  <section class="about-section" id="tentang">
+    <div class="container about-container">
+      <div class="about-visual">
+        <div class="about-image-wrapper">
+          <img 
+            src="assets/img/kebunara.jpeg" 
+            alt="Kebun Pembibitan Mawar Kebunara di Cihideung" 
+            class="about-img"
+            loading="lazy"
+          >
+          <div class="about-badge-experience">
+            <span class="about-exp-num">100%</span>
+            <span class="about-exp-label">Bibit Teraklimatisasi Tropis</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-content">
+        <span class="section-subtitle">TENTANG KEBUNARA</span>
+        <h2 class="section-title">Merawat Keindahan Mawar dari Jantung Lembang</h2>
+        <p class="about-paragraph">
+          Kebunara berlokasi di dataran sejuk Desa Cihideung, Kabupaten Bandung Barat — sentra tanaman hias legendaris di Indonesia. Kami berdedikasi membudidayakan dan menyeleksi bibit mawar impor dan lokal dengan kualitas perakaran prima.
+        </p>
+        <p class="about-paragraph">
+          Setiap bibit dirawat dengan nutrisi bio-organik, perlindungan ramah lingkungan, serta proses aklimatisasi khusus agar mampu tumbuh subur, rimbun, dan rajin berbunga di berbagai iklim dataran rendah maupun tinggi.
+        </p>
+
+        <div class="about-stats-grid">
+          <div class="about-stat-item">
+            <span class="stat-number">25+</span>
+            <span class="stat-desc">Koleksi Varietas Unggulan</span>
+          </div>
+          <div class="about-stat-item">
+            <span class="stat-number">5.000+</span>
+            <span class="stat-desc">Bibit Sukses Terkirim</span>
+          </div>
+          <div class="about-stat-item">
+            <span class="stat-number">98%</span>
+            <span class="stat-desc">Tingkat Tumbuh Optimal</span>
+          </div>
+        </div>
+
+        <div class="about-actions">
+          <a href="https://api.whatsapp.com/send?phone=6289533834052&text=Halo%20Kebunara,%20saya%20ingin%20tahu%20lebih%20banyak%20tentang%20bibit%20mawar%20Anda." target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+            <span>Konsultasi Spesialis Kami</span>
+          </a>
+          <a href="#galeri" class="btn btn--secondary">
+            <span>Lihat Galeri Kebun</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALERI KEBUNARA SECTION ==================== -->
+  <section class="gallery-section" id="galeri">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <span class="section-subtitle">GALERI KEBUNARA</span>
+        <h2 class="section-title">Pesona Bunga & Pembibitan Kami</h2>
+        <p class="section-desc-center">Saksikan keindahan mekar sempurna dan kualitas bibit pilihan langsung dari kebun budidaya kami.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter-bar">
+        <button type="button" class="gallery-filter-btn is-active" data-filter="all">Semua Foto</button>
+        <button type="button" class="gallery-filter-btn" data-filter="bloom">Bunga Merekah</button>
+        <button type="button" class="gallery-filter-btn" data-filter="seedling">Bibit Rimbun</button>
+        <button type="button" class="gallery-filter-btn" data-filter="nursery">Area Kebun</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="gallery-grid">
+        
+        <div class="gallery-item" data-category="bloom">
+          <img src="https://images.unsplash.com/photo-1559563458-527698bf5295?auto=format&fit=crop&w=700&q=80" alt="Mawar David Austin Merekah" class="gallery-thumb" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Kelopak Bertumpuk David Austin</span>
+            <span class="gallery-zoom-hint">🔍 Klik untuk perbesar</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="seedling">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=700&q=80" alt="Bibit Mawar Berakar Kuat" class="gallery-thumb" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Bibit Rimbun Berakar Sehat</span>
+            <span class="gallery-zoom-hint">🔍 Klik untuk perbesar</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="bloom">
+          <img src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&w=700&q=80" alt="Mawar Red Eden Segar" class="gallery-thumb" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Koleksi Mawar Merah Romantica</span>
+            <span class="gallery-zoom-hint">🔍 Klik untuk perbesar</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="nursery">
+          <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80" alt="Nursery Kebunara Cihideung" class="gallery-thumb" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Greenhouse Pembibitan Cihideung</span>
+            <span class="gallery-zoom-hint">🔍 Klik untuk perbesar</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="bloom">
+          <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=700&q=80" alt="Mawar Juliet Aprikot" class="gallery-thumb" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Mawar Juliet Peach Elegan</span>
+            <span class="gallery-zoom-hint">🔍 Klik untuk perbesar</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="seedling">
+          <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=700&q=80" alt="Packing Tanaman Aman" class="gallery-thumb" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-caption">Standar Packing Khusus Ekspedisi</span>
+            <span class="gallery-zoom-hint">🔍 Klik untuk perbesar</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PERAWATAN MAWAR SECTION ==================== -->
+  <section class="care-section" id="perawatan">
+    <div class="container">
+      <div class="care-layout">
+        <div class="care-intro">
+          <span class="section-subtitle">PANDUAN PRAKTIS</span>
+          <h2 class="section-title">Tips Perawatan Mawar Agar Rajin Berbunga</h2>
+          <p class="care-desc">
+            Menanam mawar tidaklah sulit jika Anda memahami kebutuhan dasarnya. Berikut kiat penting dari spesialis Kebunara untuk hasil optimal di rumah Anda.
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=6289533834052&text=Halo%20Kebunara,%20saya%20butuh%20bantuan%20seputar%20masalah%20tanaman%20mawar%20saya." target="_blank" rel="noopener noreferrer" class="btn btn--primary care-cta-btn">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+            <span>Konsultasi Perawatan Gratis</span>
+          </a>
+        </div>
+
+        <!-- Care Accordion -->
+        <div class="care-accordion" id="care-accordion">
+          
+          <div class="accordion-item is-open">
+            <button type="button" class="accordion-header" aria-expanded="true">
+              <span class="accordion-icon">☀️</span>
+              <span class="accordion-title">1. Sinar Matahari & Suhu Ideal</span>
+              <span class="accordion-arrow">▼</span>
+            </button>
+            <div class="accordion-body">
+              <p>Mawar membutuhkan minimal 5–6 jam sinar matahari langsung setiap hari untuk memicu fotosintesis dan pembentukan kuntum bunga baru. Pastikan sirkulasi udara di sekitarnya mengalir lancar.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false">
+              <span class="accordion-icon">💧</span>
+              <span class="accordion-title">2. Pola Penyiraman Efektif</span>
+              <span class="accordion-arrow">▼</span>
+            </button>
+            <div class="accordion-body">
+              <p>Siram mawar secara teratur 1–2 kali sehari (pagi sebelum pukul 09.00 dan sore hari). Arahkan air langsung ke media tanam, hindari membasahi kelopak dan daun di malam hari untuk mencegah timbulnya jamur.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false">
+              <span class="accordion-icon">🌱</span>
+              <span class="accordion-title">3. Media Tanam & Pemupukan Rutin</span>
+              <span class="accordion-arrow">▼</span>
+            </button>
+            <div class="accordion-body">
+              <p>Gunakan media tanam porous (campuran sekam bakar, tanah subur, dan pupuk kandang matang). Berikan pupuk NPK seimbang atau pupuk khusus pembungaan secara berkala setiap 10–14 hari sekali.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false">
+              <span class="accordion-icon">✂️</span>
+              <span class="accordion-title">4. Pemangkasan (Pruning) & Proteksi Hama</span>
+              <span class="accordion-arrow">▼</span>
+            </button>
+            <div class="accordion-body">
+              <p>Pangkas bunga yang sudah layu (*deadheading*) serta buang ranting yang kering/saling silang untuk merangsang tunas baru. Semprotkan pestisida organik/neem oil secara preventif sebulan sekali.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CALL TO ACTION BANNER ==================== -->
+  <section class="cta-banner-section" id="kontak-banner">
+    <div class="container">
+      <div class="cta-banner-box">
+        
+        <!-- Subtle Rose Watermark in Banner Background -->
+        <div class="cta-watermark" aria-hidden="true">
+          <svg viewBox="0 0 200 200" fill="none">
+            <path d="M100 20C75 20 50 40 50 70C50 110 100 160 100 160C100 160 150 110 150 70C150 40 125 20 100 20Z" fill="white" fill-opacity="0.04"/>
+          </svg>
+        </div>
+
+        <!-- Left Text Content -->
+        <div class="cta-banner-text">
+          <h3 class="cta-banner-title">Siap Memiliki Mawar Impian Anda?</h3>
+          <p class="cta-banner-desc">Hubungi Kebunara sekarang dan dapatkan mawar terbaik untuk kebun yang lebih indah.</p>
+        </div>
+
+        <!-- Right WhatsApp Action & Phone -->
+        <div class="cta-banner-actions">
+          <a href="https://api.whatsapp.com/send?phone=6289533834052&text=Halo%20Kebunara,%20saya%20siap%20memesan%20mawar%20impian%20saya!" target="_blank" rel="noopener noreferrer" class="btn btn--white-wa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            <span>Chat Kebunara</span>
+          </a>
+          <a href="tel:089533834052" class="cta-phone-number">089533834052</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" id="kontak">
+    <!-- Botanical Decorative Motif on Right -->
+    <div class="footer-decoration" aria-hidden="true">
+      <svg viewBox="0 0 300 300" fill="none">
+        <path d="M280 20C220 50 180 120 170 200C165 240 170 280 180 300" stroke="white" stroke-width="1.5" stroke-opacity="0.08"/>
+        <path d="M210 130C190 120 170 130 160 150C175 165 200 160 210 130Z" fill="white" fill-opacity="0.05"/>
+        <path d="M230 70C210 50 185 60 175 80C195 95 220 90 230 70Z" fill="white" fill-opacity="0.05"/>
+        <path d="M190 200C170 190 150 200 140 220C155 235 180 230 190 200Z" fill="white" fill-opacity="0.05"/>
+      </svg>
+    </div>
+
+    <div class="container footer-container">
+      
+      <!-- Column 1: Brand Info -->
+      <div class="footer-col footer-col--brand">
+        <div class="footer-logo">
+          <div class="logo-icon-wrapper logo-icon-wrapper--footer">
+            <img src="assets/img/footer.png" alt="footer kebunara">
+          </div>
+        </div>
+
+        <p class="footer-brand-desc">
+          Kebunara adalah spesialis tanaman mawar pilihan dengan kualitas terbaik dan perawatan penuh perhatian.
+        </p>
+
+        <!-- Social Media Icons -->
+        <div class="footer-social-links">
+          <a href="https://instagram.com/kebunara" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://tiktok.com/@kebunara" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+            </svg>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=6289533834052" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Navigasi -->
+      <div class="footer-col">
+        <h5 class="footer-col-title">Navigasi</h5>
+        <ul class="footer-menu-list">
+          <li><a href="#beranda" class="footer-menu-link">Beranda</a></li>
+          <li><a href="#koleksi" class="footer-menu-link">Mawar</a></li>
+          <li><a href="#tentang" class="footer-menu-link">Tentang Kami</a></li>
+          <li><a href="#galeri" class="footer-menu-link">Galeri</a></li>
+          <li><a href="#perawatan" class="footer-menu-link">Perawatan Mawar</a></li>
+          <li><a href="#kontak" class="footer-menu-link">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Informasi -->
+      <div class="footer-col">
+        <h5 class="footer-col-title">Informasi</h5>
+        <ul class="footer-menu-list">
+          <li><button type="button" class="footer-info-btn" data-info-tab="order">Cara Pemesanan</button></li>
+          <li><button type="button" class="footer-info-btn" data-info-tab="shipping">Pengiriman</button></li>
+          <li><a href="#perawatan" class="footer-menu-link">Perawatan Mawar</a></li>
+          <li><button type="button" class="footer-info-btn" data-info-tab="faq">FAQ</button></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Kontak -->
+      <div class="footer-col footer-col--contact">
+        <h5 class="footer-col-title">Kontak</h5>
+        <ul class="footer-contact-list">
+          <li class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:0895338340552" class="contact-link">0895338340552</a>
+          </li>
+          <li class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <a href="https://instagram.com/kebunara" target="_blank" rel="noopener noreferrer" class="contact-link">@kebunara</a>
+          </li>
+          <li class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+            </svg>
+            <a href="https://tiktok.com/@kebunara" target="_blank" rel="noopener noreferrer" class="contact-link">@kebunara</a>
+          </li>
+          <li class="contact-item contact-item--address">
+            <svg class="contact-icon contact-icon--map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <a href="https://www.google.com/maps/search/?api=1&query=Kp+Panyairan+Desa+Cihideung+Bandung+Barat" target="_blank" rel="noopener noreferrer" class="contact-link address-text">
+              Kp. Panyairan RT 02 RW 11<br>
+              Desa Cihideung<br>
+              Kabupaten Bandung Barat ↗
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">© 2025 Kebunara. Semua hak dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL DETAIL PRODUK ==================== -->
+  <div class="modal-overlay" id="product-detail-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-product-title">
+    <div class="modal-card">
+      <!-- Close Button -->
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Tutup Detail Produk">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Modal Content Layout -->
+      <div class="modal-grid">
+        <div class="modal-image-wrapper">
+          <img src="" alt="Detail Mawar" class="modal-product-img" id="modal-product-image">
+          <span class="modal-badge-status" id="modal-product-status">Tersedia</span>
+        </div>
+        <div class="modal-info-pane">
+          <span class="modal-category">Bibit Mawar Pilihan</span>
+          <h3 class="modal-title" id="modal-product-title">Nama Mawar</h3>
+          <p class="modal-price" id="modal-product-price">Rp 0</p>
+          <p class="modal-description" id="modal-product-desc">Deskripsi mawar...</p>
+
+          <!-- Spec Details -->
+          <div class="modal-specs">
+            <div class="spec-row">
+              <span class="spec-label">Aroma:</span>
+              <span class="spec-val" id="modal-product-scent">-</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Tinggi Bibit:</span>
+              <span class="spec-val" id="modal-product-height">-</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-label">Karakter Bunga:</span>
+              <span class="spec-val" id="modal-product-bloom">-</span>
+            </div>
+          </div>
+
+          <!-- Modal Action Buttons -->
+          <div class="modal-actions-row">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--modal-wa" id="modal-whatsapp-cta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Pesan via WhatsApp</span>
+            </a>
+            <button type="button" class="btn btn--modal-cart" id="modal-add-cart-btn">
+              <span>+ Keranjang</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL INFORMASI & FAQ ==================== -->
+  <div class="modal-overlay" id="info-modal" aria-hidden="true" role="dialog" aria-labelledby="info-modal-title">
+    <div class="modal-card modal-card--info">
+      <button type="button" class="modal-close-btn" id="info-modal-close-btn" aria-label="Tutup Informasi">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="info-modal-header">
+        <span class="modal-category">PANDUAN PEMBELIAN</span>
+        <h3 class="info-modal-title" id="info-modal-title">Informasi & Bantuan</h3>
+        
+        <!-- Tab Navigation -->
+        <div class="info-tabs-bar">
+          <button type="button" class="info-tab-btn is-active" data-tab-target="order">Cara Pemesanan</button>
+          <button type="button" class="info-tab-btn" data-tab-target="shipping">Pengiriman & Garansi</button>
+          <button type="button" class="info-tab-btn" data-tab-target="faq">FAQ (Tanya Jawab)</button>
+        </div>
+      </div>
+
+      <div class="info-modal-body">
+        
+        <!-- Tab Content: Cara Pemesanan -->
+        <div class="info-tab-panel is-active" id="panel-order">
+          <h4 class="tab-panel-heading">Langkah Mudah Memesan di Kebunara:</h4>
+          <ol class="order-steps-list">
+            <li>
+              <strong>Pilih Mawar Impian:</strong> Telusuri katalog mawar pilihan dan pilih varietas yang Anda sukai.
+            </li>
+            <li>
+              <strong>Pesan Cepat via WhatsApp atau Keranjang:</strong> Klik tombol *"Chat WhatsApp"* langsung pada produk, atau gunakan tombol *"+ Keranjang"* untuk memesan lebih dari satu jenis mawar.
+            </li>
+            <li>
+              <strong>Konfirmasi Alamat & Ongkir:</strong> Admin kami akan segera menghitungkan ongkos kirim termurah & tercepat ke alamat rumah Anda.
+            </li>
+            <li>
+              <strong>Pembayaran Aman:</strong> Pembayaran dapat dilakukan via transfer Bank (BCA, Mandiri, BRI) atau QRIS resmi Kebunara.
+            </li>
+            <li>
+              <strong>Packing & Pengiriman:</strong> Bibit diberi nutrisi anti-stress, di-packing aman menggunakan rangka kokoh, dan dikirim dengan nomor resi terdaftar.
+            </li>
+          </ol>
+        </div>
+
+        <!-- Tab Content: Pengiriman -->
+        <div class="info-tab-panel" id="panel-shipping">
+          <h4 class="tab-panel-heading">Standar Pengiriman & Garansi Kebunara:</h4>
+          <ul class="shipping-info-list">
+            <li><strong>Jangkauan Pengiriman:</strong> Melayani pesanan ke seluruh kota di Pulau Jawa, Bali, Sumatera, Kalimantan, Sulawesi, hingga pulau lainnya di Indonesia.</li>
+            <li><strong>Ekspedisi Terpercaya:</strong> Menggunakan J&T Express, JNE YES/Reguler, SiCepat, TiKi, dan pengiriman travel khusus Jawa Barat & Jabodetabek.</li>
+            <li><strong>Garansi Tiba Segar:</strong> Jika bibit patah parah atau mati akibat kendala perjalanan, kami berikan <em>garansi ganti bibit baru</em> dengan menyertakan video unboxing saat paket diterima.</li>
+          </ul>
+        </div>
+
+        <!-- Tab Content: FAQ -->
+        <div class="info-tab-panel" id="panel-faq">
+          <h4 class="tab-panel-heading">Pertanyaan yang Sering Diajukan:</h4>
+          <div class="faq-list">
+            <div class="faq-item">
+              <strong>Q: Apakah mawar aman dikirim ke luar pulau Jawa?</strong>
+              <p>A: Sangat aman. Media tanam kami kurangi sedikit dan dipadatkan dengan cocopeat lembab serta akar disemprot vitamin B1 anti-stress agar tahan perjalanan hingga 5–7 hari.</p>
+            </div>
+            <div class="faq-item">
+              <strong>Q: Berapa ukuran bibit yang akan saya terima?</strong>
+              <p>A: Rata-rata tinggi bibit adalah 35–55 cm, sudah memiliki percabangan kokoh, berakar aktif, dan sebagian besar sudah berkuncup/siap mekar.</p>
+            </div>
+            <div class="faq-item">
+              <strong>Q: Bagaimana jika saya masih pemula dalam merawat mawar?</strong>
+              <p>A: Jangan khawatir! Tim spesialis Kebunara siap mendampingi Anda gratis via WhatsApp untuk panduan penanaman pertama dan konsultasi perawatan lanjutan.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="info-modal-footer">
+        <a href="https://api.whatsapp.com/send?phone=6289533834052&text=Halo%20Kebunara,%20saya%20ingin%20tanya%20seputar%20pemesanan%20mawar." target="_blank" rel="noopener noreferrer" class="btn btn--primary info-chat-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          <span>Chat Admin Kebunara</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL LIGHTBOX FOTO GALERI ==================== -->
+  <div class="modal-overlay modal-overlay--lightbox" id="lightbox-modal" aria-hidden="true" role="dialog" aria-label="Pratinjau Foto">
+    <div class="lightbox-card">
+      <button type="button" class="modal-close-btn lightbox-close-btn" id="lightbox-close-btn" aria-label="Tutup Foto">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <img src="" alt="Pratinjau Foto Kebunara" class="lightbox-img" id="lightbox-img">
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- ==================== CART DRAWER (SIDEBAR KERANJANG) ==================== -->
+  <div class="cart-backdrop" id="cart-backdrop" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true" role="dialog" aria-labelledby="cart-drawer-title">
+    <!-- Header Drawer -->
+    <div class="cart-drawer__header">
+      <div class="cart-drawer__title-group">
+        <h3 class="cart-drawer__title" id="cart-drawer-title">Keranjang Belanja</h3>
+        <span class="cart-drawer__count" id="cart-drawer-count">(0 item)</span>
+      </div>
+      <button type="button" class="cart-drawer__close-btn" id="cart-drawer-close-btn" aria-label="Tutup Keranjang">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Items List Body -->
+    <div class="cart-drawer__body" id="cart-drawer-body">
+      <!-- Daftar item di-render dinamis oleh JavaScript -->
+    </div>
+
+    <!-- Footer Summary & Actions -->
+    <div class="cart-drawer__footer" id="cart-drawer-footer">
+      <div class="cart-drawer__summary">
+        <span class="cart-summary__label">Total Pembelian:</span>
+        <span class="cart-summary__total" id="cart-total-price">Rp 0</span>
+      </div>
+      <p class="cart-drawer__note">* Belum termasuk ongkos kirim sesuai kota/kecamatan Anda</p>
+      <div class="cart-drawer__actions">
+        <button type="button" class="btn btn--cart-checkout" id="cart-checkout-wa-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          <span>Lanjut Pesan ke WhatsApp</span>
+        </button>
+        <button type="button" class="btn-clear-cart" id="cart-clear-btn">Kosongkan Keranjang</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite"></div>
+
+  <!-- External JavaScript (JS murni tanpa inline script) -->
+  <script src="js/app.js"></script>
+</body>
+</html>
