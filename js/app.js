@@ -49,7 +49,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 65.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1559563458-527698bf5295?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/david austin.jpg',
     description: 'Mawar jenis English Rose dengan lapisan kelopak bertumpuk padat khas David Austin. Memiliki wangi harum semerbak, sangat cocok untuk iklim tropis dengan media porous.',
     scent: 'Aroma Buah & Myrrh (Kuat)',
     height: '40 - 55 cm (Bibit Rawatan Siap Berbunga)',
@@ -62,7 +62,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 55.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/red eden.jpeg',
     description: 'Mawar merambat tipe romantica bernuansa merah beludru klasik. Daya tahan bunganya sangat lama dan mekar berkelompok secara kontinu sepanjang tahun.',
     scent: 'Aroma Lembut Klasik (Mild)',
     height: '45 - 60 cm (Bibit Kokoh Berakar Kuat)',
@@ -75,7 +75,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 65.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/juliet.jpeg',
     description: 'Salah satu varietas mawar termahal dan paling dicari di dunia dengan warna aprikot/peach lembut yang elegan dan formasi kelopak melingkar sempurna.',
     scent: 'Aroma Teh Hangat & Bunga Segar',
     height: '35 - 50 cm (Bibit Hasil Okulasi Berkualitas)',
@@ -88,7 +88,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 60.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/white o hara.webp',
     description: 'Mawar taman Prancis berwarna putih krem gading dengan sedikit rona merah muda di intinya. Sangat wangi dengan kelopak berukuran ekstra besar.',
     scent: 'Aroma Manis Mewah & Segar (Sangat Wangi)',
     height: '40 - 55 cm (Siap Tanam di Kebun/Pot)',
@@ -101,7 +101,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 55.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1496062031456-07b8f162a322?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/pink eden.jpg',
     description: 'Dikenal juga sebagai Pierre de Ronsard, mawar legendaris dengan kombinasi warna gradasi merah muda lembut dan putih gading yang sangat rimbun.',
     scent: 'Aroma Ringan Segar (Subtle Fragrance)',
     height: '45 - 60 cm (Tunas Aktif & Berdaun Rimbun)',
@@ -114,7 +114,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 65.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/abraham darby.webp',
     description: 'Mawar English Shrub klasik ciptaan David Austin dengan warna unik gradasi aprikot-merah muda dan aroma fruity yang sangat kaya dan harum.',
     scent: 'Aroma Buah Kuat & Manis',
     height: '40 - 55 cm (Bibit Rimbun Berakar Kuat)',
@@ -127,7 +127,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 70.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/black baccara.jpg',
     description: 'Mawar paling eksotis dengan kelopak beludru merah sangat pekat mendekati hitam. Memiliki tangkai panjang kokoh dan daya tahan mekar terbaik.',
     scent: 'Aroma Klasik Ringan & Segar',
     height: '40 - 50 cm (Bibit Okulasi Pilihan)',
@@ -140,7 +140,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 65.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/graham thomas.webp',
     description: 'Mawar kuning emas terpopuler di dunia yang memenangkan World Favourite Rose. Berbunga sangat rajin dengan wangi teh segar (*tea fragrance*).',
     scent: 'Aroma Teh Mawar Segar Klasik',
     height: '45 - 60 cm (Tunas Baru & Daun Hijau Segar)',
@@ -153,7 +153,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 60.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/leonardo da vinci.webp',
     description: 'Mawar Floribunda asal Prancis dengan warna pink fuschia cerah yang sangat tahan terhadap cuaca panas maupun hujan lebat tanpa rontok.',
     scent: 'Aroma Lembut Ringan (Mild)',
     height: '35 - 50 cm (Bibit Kuat Tahan Segala Cuaca)',
@@ -166,7 +166,7 @@ const PRODUCTS_DATABASE = [
     priceFormatted: 'Rp 70.000',
     isAvailable: true,
     badgeText: 'Tersedia',
-    image: 'https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&w=600&q=80',
+    image: 'assets/img/blue for you.webp',
     description: 'Mawar langka berwarna ungu kebiruan (*slate blue/lavender*) dengan bagian tengah putih kontras dan aroma manis seperti apel matang.',
     scent: 'Aroma Manis Tajam Sangat Harum',
     height: '40 - 55 cm (Koleksi Langka Siap Rawat)',
@@ -965,6 +965,21 @@ function setupCareAccordion() {
 }
 
 /**
+ * 8.4b Accordion Footer (Navigasi, Informasi, Kontak) - khusus tampilan mobile
+ */
+function setupFooterAccordion() {
+  const toggles = document.querySelectorAll('.footer-accordion-toggle');
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const col = toggle.closest('.footer-col--accordion');
+      if (!col) return;
+      const isOpen = col.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  });
+}
+
+/**
  * 8.5 Manajemen Modal Informasi & FAQ (Footer Links)
  */
 const InfoModalManager = {
@@ -1195,8 +1210,7 @@ document.addEventListener('DOMContentLoaded', () => {
   InfoModalManager.init();
   setupHeroFeatureBadges();
   setupCareAccordion();
+  setupFooterAccordion();
   setupProductCardInteractions();
   setupNavigationAndHeader();
 });
-
-
