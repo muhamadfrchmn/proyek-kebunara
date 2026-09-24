@@ -2537,7 +2537,8 @@ ul {
 /* ==========================================
    18. LIGHTBOX MODAL
    ========================================== */
-.modal-overlay--lightbox {
+.modal-overlay.modal-overlay--lightbox,
+#lightbox-modal {
   background-color: rgba(10, 20, 15, 0.9);
 }
 
@@ -2749,4 +2750,53 @@ ul {
   .header-container {
     height: 82px;
   }
+}
+
+/* ==========================================
+   22. PERBAIKAN FOOTER LOGO & LIGHTBOX MOBILE
+   ========================================== */
+
+/* Footer: logo diangkat ke atas, sejajar dengan judul kolom lain.
+   Ubah --footer-logo-shift (mis. -12px) bila ingin dinaikkan lagi. */
+.site-footer {
+  --footer-logo-shift: -6px;
+  padding-top: 44px;
+}
+
+.footer-logo {
+  align-items: flex-start;
+}
+
+.footer-logo .logo-icon-wrapper--footer {
+  align-items: flex-start;
+  transform: translateY(var(--footer-logo-shift));
+}
+
+.footer-logo .logo-icon-wrapper--footer img {
+  object-position: left top;
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    --footer-logo-shift: -4px;
+    padding-top: 28px;
+  }
+}
+
+/* Lightbox galeri: selalu di tengah layar, termasuk di mobile
+   (sebelumnya ikut gaya bottom sheet sehingga menempel di bawah). */
+.modal-overlay.modal-overlay--lightbox,
+#lightbox-modal {
+  align-items: center !important;
+  justify-content: center;
+  padding: 56px 16px 24px; /* ruang atas untuk tombol tutup */
+}
+
+.modal-overlay--lightbox .lightbox-card {
+  margin: auto;
+}
+
+.lightbox-img {
+  max-height: 70vh;
+  max-height: 70dvh;
 }

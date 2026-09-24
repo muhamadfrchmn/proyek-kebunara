@@ -178,7 +178,7 @@ const PRODUCTS_DATABASE = [
    3. KONFIGURASI KONTAK & WHATSAPP
    ========================================================================== */
 const WHATSAPP_CONFIG = {
-  phoneNumber: '6289533834052',
+  phoneNumber: '62895338345052',
 
   /**
    * Membuat tautan WhatsApp untuk pemesanan produk spesifik
